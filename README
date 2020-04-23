@@ -1,0 +1,50 @@
+This is a project submitted for a course on Transmission and Distribution.
+
+Navigation:
+
+1) The various versions of the code has been included in the "subparts of Output" folder
+
+2) The fonts and icon has been included in "others" folder (for exporting as .exe or .app file.
+
+3) Sample output has been shown in the "Sample Output" folder. This includes both the output pdf and the transmission cirles. 
+
+
+How can this code be used?
+
+The code is used to calculate the following transmission parameters:
+
+Note: This code works only on three phase single circuit transmission system made of bundled conductors in
+all the three phases. The sub-conductors of the bundle are stranded ACSR conductors
+
+1. Inductance per phase per km in H/km
+2. Capacitance per phase per km in F/km.
+3. Inductive reactance of the line in Ohm.
+4. Capacitive reactance of the line in Ohm.
+5. Charging current drawn from the sending end substation
+6. Calculate ABCD parameters of the line.
+7. Calculate the sending end voltage in kV, if the receiving end voltage is maintained at
+nominal system voltage.
+8. Calculate the sending end current in A.
+9. Calculate the percentage voltage regulation.
+10. Calculate the power loss in the line in MW.
+11. Calculate the transmission efficiency.
+12. Draw the sending end circle diagram.
+13. Draw the receiving end circle diagram.
+
+The above parameters are found using the following input user data:
+
+1. Type of the system - Symmetrical or Unsymmetrical Spacing (transposed)
+2. Spacing between the phase conductors
+3. Number of sub-conductors per bundle
+4. Spacing between the sub-conductors
+5. Number of strands in each sub conductor
+6. Diameter of each strand
+7. Length of the line in km
+8. Model of the line (Short/nominal pi/long)
+9. Resistance of the line per km
+10. Power Frequency
+11. Nominal System Voltage
+12. Receiving end load in MW.
+13. Power factor of receiving end load.
+
+-- Pramoth
